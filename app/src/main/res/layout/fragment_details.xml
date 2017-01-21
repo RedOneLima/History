@@ -1,0 +1,22 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="khewitt.history.fragment_details"
+    android:id="@+id/fragment_details"
+    android:name="khewitt.history.DetailsFragment"
+    android:gravity="center"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:id="@+id/detail_text"
+        android:maxLines="100"
+        android:scrollbars="vertical"/>
+
+
+</LinearLayout>
